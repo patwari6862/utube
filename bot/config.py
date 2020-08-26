@@ -33,7 +33,7 @@ class Config:
         if UPLOAD_MODE.lower() in ['private', 'public', 'unlisted']:
             UPLOAD_MODE = UPLOAD_MODE.lower()
         else:
-            UPLOAD_MODE = True 
+            UPLOAD_MODE = False  
 
     CRED_FILE = "auth_token.txt"
 
